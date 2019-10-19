@@ -1,0 +1,52 @@
+.divCandidate {
+    display: flex;
+    border: 1px solid #000;
+    margin: 10px 10px;
+}
+
+.divVote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.divVoteValue {
+    font-size: 4rem;
+}
+
+.btnVote {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.divCandidatePhoto {
+    margin: 10px 10px;
+}
+
+.divCandidatePhoto img {
+    width: 8rem;
+    height: 10rem;
+}
+
+.divCandidateData {
+    margin: 50px 40px;
+    padding: center;
+}
+
+.divCandidateName {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.divCandidateDetail {
+    color: black;
+    font-size: 1.2rem;
+}
